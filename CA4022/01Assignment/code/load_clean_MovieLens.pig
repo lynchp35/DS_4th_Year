@@ -11,7 +11,7 @@ ratings = LOAD  '../ml-latest-small/ratings.csv'  using CSVExcelStorage() AS (us
 
 movies = DISTINCT movies;
 ratings = DISTINCT ratings;
-
+ 
 /*
 Loop through the movies dataset, generate the movieId,
 split the genres string using the TOKENIZE function on '|',
@@ -47,3 +47,4 @@ $6 as timestamp;
 
 STORE movies_with_ratings INTO '../ml-latest-small/processed_data/movies.csv'  USING PigStorage('\t');
 STORE movieId_with_genres INTO '../ml-latest-small/processed_data/genres.csv'  USING PigStorage('\t');
+

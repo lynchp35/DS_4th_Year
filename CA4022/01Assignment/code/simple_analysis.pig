@@ -1,0 +1,95 @@
+-- Import both genres and movies tables
+
+genres = LOAD '../ml-latest-small/processed_data/genres.csv' USING PigStorage('\t') AS (movieId:int,
+genres:chararray);
+
+movies = LOAD '../ml-latest-small/processed_data/movies.csv' USING PigStorage('\t') AS (movieId:int,
+title:chararray,
+year:int,
+userId:int,
+rating:float,
+timestamp);
+
+/* 
+
+using movies I want to return a count of how many times a title is meantioned.
+Return the top 10 
+
+*/
+
+
+grouped_movies = GROUP movies BY title;
+movie_count = FOREACH grouped_movies GENERATE group as title,COUNT($1) as count:int ;
+movie_count = ORDER movie_count BY count DESC;
+top_ten_rated_movies = LIMIT movie_count 10;
+
+-- DUMP top_ten_rated_movies;
+
+/*
+
+I want to find the top ten movies with the most 4 or above ratings.
+Find the count of 4, 4.5 and 5.
+I will use this to show the distribution of ratings.
+
+*/
+
+movies_with_high_ratings = FILTER movies by (rating >= 4);
+
+grouped_movies_with_high_ratings  = GROUP movies_with_high_ratings BY title;
+movies_with_high_ratings_count = FOREACH grouped_movies_with_high_ratings GENERATE group as title,
+COUNT($1) as count:int;
+movies_with_high_ratings_count = ORDER movies_with_high_ratings_count BY count DESC;
+top_ten_high_rated_movies = LIMIT movies_with_high_ratings_count 10;
+
+DUMP top_ten_high_rated_movies;
+
+movies_rated_4 = FILTER movies by (rating == 4);
+movies_rated_4_half = FILTER movies by (rating == 4.5);
+movies_rated_5 = FILTER movies by (rating == 5);
+
+grouped_movies_rated_4 = GROUP movies_rated_4 BY title;
+grouped_movies_rated_4_half  = GROUP movies_rated_4_half BY title;
+grouped_movies_rated_5  = GROUP movies_rated_5 BY title;
+
+movies_with_4_ratings_count = FOREACH grouped_movies_rated_4 
+GENERATE group as title,COUNT($1) as count:int ;
+
+movies_with_4_half_ratings_count = FOREACH grouped_movies_rated_4_half 
+GENERATE group as title,COUNT($1) as count:int ;
+
+movies_with_5_ratings_count = FOREACH grouped_movies_rated_5 
+GENERATE group as title,COUNT($1) as count:int ;
+
+tmp_movies_join = JOIN top_ten_high_rated_movies BY title LEFT OUTER, movies_with_5_ratings_count BY title;
+
+tmp_movies_join = FOREACH tmp_movies_join GENERATE $0 as title,
+$1 as count:int,
+$3 as rating_5f:int;
+
+tmp_movies_join = JOIN tmp_movies_join BY title LEFT OUTER, movies_with_4_half_ratings_count BY title;
+
+tmp_movies_join = FOREACH tmp_movies_join GENERATE $0 as title,
+$1 as count:int,
+$2 as rating_5f:int,
+$4 as rating_4_half:int;
+
+tmp_movies_join = JOIN tmp_movies_join BY title LEFT OUTER, movies_with_4_ratings_count BY title;
+
+top_high_rated_movies_breakdown  = FOREACH tmp_movies_join GENERATE $0 as title,
+$1 as count:int,
+$2 as rating_5f:int,
+$3 as rating_4_half:int,
+$5 as rating_4:int;
+
+-- Output in format title, count(ratings >=4), count(ratings==5), count(ratings==4.5), count(ratings==4)
+DUMP top_high_rated_movies_breakdown;
+
+
+/*
+
+using movies I want to return a the mean rating of a user.
+return top 10
+
+*/
+
+-- top_ten_movie_fans
