@@ -32,15 +32,15 @@ The steps I took with Hive.
       4. ratings.csv  
       5. tags.csv
       6. processed_data
-         1. genres.csv/  
-         2. movies.csv/
-	 3. genre_rating_distribution_hive
-	 4. highly_rated_movies_hive
-	 5. highly_rated_movies_pig
-	 6. most_common_rating_hive
-         7. popular_movies_hive
- 	 8. popular_movies_pig
-	 9. rating_distribution_hive
+       	 1. genres.csv/  
+       	 2. movies.csv/
+       	 3. genre_rating_distribution_hive
+       	 4. highly_rated_movies_hive
+       	 5. highly_rated_movies_pig
+       	 6. most_common_rating_hive
+       	 7. popular_movies_hive
+       	 8. popular_movies_pig
+       	 9. rating_distribution_hive
      	 10. user_data_hive
-	 11. user_data_pig
+     	 11.  user_data_pig
   3. README.md
