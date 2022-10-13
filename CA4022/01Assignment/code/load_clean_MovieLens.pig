@@ -2,10 +2,10 @@ DEFINE CSVExcelStorage org.apache.pig.piggybank.storage.CSVExcelStorage;
 
 -- load movies.csv using CSVExcelStorage(), (avoid the comma in the table value problem)
 
-movies = LOAD '../ml-latest-small/movies.csv' using CSVExcelStorage() AS (movieId:int,
+movies = LOAD 'ml-latest-small/movies.csv' using CSVExcelStorage() AS (movieId:int,
 title:chararray, genres:chararray);
 
-ratings = LOAD  '../ml-latest-small/ratings.csv'  using CSVExcelStorage() AS (userId:int, movieId:int, rating:float, timestamp:int);
+ratings = LOAD  'ml-latest-small/ratings.csv'  using CSVExcelStorage() AS (userId:int, movieId:int, rating:float, timestamp:int);
 
 -- Remove duplicates
 
@@ -45,6 +45,6 @@ $6 as timestamp;
 
 -- save tables , change from csv to tsv (avoid the comma in the table value problem)
 
-STORE movies_with_ratings INTO '../ml-latest-small/processed_data/movies.csv'  USING PigStorage('\t');
-STORE movieId_with_genres INTO '../ml-latest-small/processed_data/genres.csv'  USING PigStorage('\t');
+STORE movies_with_ratings INTO 'ml-latest-small/processed_data/movies.csv'  USING PigStorage('\t');
+STORE movieId_with_genres INTO 'ml-latest-small/processed_data/genres.csv'  USING PigStorage('\t');
 

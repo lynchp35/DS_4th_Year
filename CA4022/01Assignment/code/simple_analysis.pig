@@ -114,7 +114,7 @@ top_ten_biggest_rater = LIMIT biggest_rater 10;
 
 all_user_ratings = UNION top_ten_users, top_ten_biggest_rater;
 
--- DUMP all_user_ratings;
-STORE all_user_ratings INTO 'ml-latest-small/processed_data/user_data.csv'  USING PigStorage('\t');
-STORE top_ten_rated_movies  INTO 'ml-latest-small/processed_data/popular_movies.csv'  USING PigStorage('\t');
-STORE top_high_rated_movies_breakdown INTO 'ml-latest-small/processed_data/highly_rated_movies.csv'  USING PigStorage('\t');
+DUMP all_user_ratings;
+STORE all_user_ratings INTO 'ml-latest-small/processed_data/user_data_pig'  USING PigStorage('\t');
+STORE top_ten_rated_movies  INTO 'ml-latest-small/processed_data/popular_movies_pig'  USING PigStorage('\t');
+STORE top_high_rated_movies_breakdown INTO 'ml-latest-small/processed_data/highly_rated_movies_pig'  USING PigStorage('\t');
