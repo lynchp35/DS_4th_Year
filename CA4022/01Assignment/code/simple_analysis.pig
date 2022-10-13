@@ -8,7 +8,7 @@ title:chararray,
 year:int,
 userId:int,
 rating:float,
-timestamp);
+timestamp:int);
 
 /* 
 Part 1
