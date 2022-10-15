@@ -11,11 +11,11 @@ LOAD DATA LOCAL INPATH '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/proc
 
 /* Part 1
 Same idea as part 1 for simple_analysis.pig.
-Results are output to hive_01.csv
+Results are output to popular_movies_hive
 */
 
 
-INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/hive_01.csv' 
+INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/popular_movies_hive' 
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY '\t'
 SELECT title, COUNT(*) as watch_count FROM movies GROUP BY title
@@ -27,7 +27,7 @@ Similar to part 2 for pig but since I already have the data on each rating [4.0,
 I will only return the count of ratings above 4.0. 
 */
 
-INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/hive_02.csv' 
+INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/highly_rated_movies_hive' 
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY '\t'
 SELECT title, COUNT(*) as rating_count 
@@ -41,7 +41,7 @@ Similar to part 3 for pig but since I already have the data on users with the hi
 I will only return users with the highest average rating.
 */
 
-INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/hive_03.csv' 
+INSERT OVERWRITE LOCAL DIRECTORY '/home/lynchp35/CA4022_01_Assignment/ml-latest-small/processed_data/user_data_hive' 
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY '\t'
 SELECT  userId, AVG(rating) AS average_rating
