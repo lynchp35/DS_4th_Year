@@ -32,7 +32,7 @@ FIELDS TERMINATED BY '\t'
 SELECT  rating, COUNT(rating)
 FROM    movies
 GROUP BY rating
-ORDER BY rating
+ORDER BY rating;
 
 /*Part 2
 For this part I will import the data from part 4. Then return the most popular rating.
