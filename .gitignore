@@ -1,2 +1,8 @@
+# Exclude file type
+  
 *.csv
+
+
+# exclude directories
 CA4021/*
+CA4022/02Assignment/*
