@@ -1,6 +1,6 @@
 # Dublin City University Data Science 4th Year 
 
-##**Modules**
+## **Modules**
 
 | Module Code | Module Name | Credits|Semsester|
 | --- | ----------- |----------- |----------- |
