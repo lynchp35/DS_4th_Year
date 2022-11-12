@@ -1,7 +1,9 @@
 # Exclude file type
 
+
 # exclude directories
 CA4021/*
 CA4022/02Assignment/*
 CA4016/data/D1NAMO
 CA4022/01Assignment/ml-latest-small
+CA4022/03Assignment/data
