@@ -160,12 +160,11 @@ class Daft_web_scraper:
         """
         try:
             price = int("".join(price.split("€")[1].split(",")))
-        except IndexError:
-            if price.strip() != "Price on Application":
-                #print(f"Error found on page {i}")
-                #print(f"{price} is not of type int", end ="\n\n")
-                price = np.nan
+        except:
+            if price.strip() == "Price on Application" or price.strip() == "AMV: Price on Application":
+                price = "Price on Application"
             else:
+                print(price, i)
                 price = price.strip()
         return price
 
@@ -235,12 +234,15 @@ class Daft_web_scraper:
 if __name__ == "__main__":
     path = "data/"
     url = "https://www.daft.ie/property-for-sale/ireland"
-    start_page = 25
-    end_page = 35
+    
+    start_page = 0
+    end_page = 987
     page_size = 20
     
     s1 = Daft_web_scraper(url, start_page, end_page)
+
     property_dict = s1.start_scraping()
+    
     properties = pd.DataFrame(property_dict)
     
-    properties.to_csv(f"{path}{start_page}_{end_page}_{page_size}.csv")
+    properties.to_csv(f"{path}daft_from_page_{start_page}_till_page_{end_page}_by_{page_size}.csv")
