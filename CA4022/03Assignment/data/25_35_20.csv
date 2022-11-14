@@ -1,0 +1,243 @@
+,Bed,Bath,m²,Price,Address,Property_type,New_build,Page
+0,4,,,1275000,"Oatlands Manor, Oatlands Manor, Mount Merrion, Co. Dublin",Detached,yes,25
+1,3,3,,395000,"The Willows Development, The Willows Development, Dunshaughlin, Co. Meath",Terrace,yes,25
+2,3,2,,630000,"Domville, Cherrywood, Co. Dublin",Semi-D,yes,25
+3,4,3,,740000,"Domville, Cherrywood, Co. Dublin",Semi-D,yes,25
+4,2,2,,350000,"Vartry Wood, Ashford, Co. Wicklow",Terrace,yes,25
+5,2,2,,365000,"Vartry Wood, Ashford, Co. Wicklow",End of Terrace,yes,25
+6,2,2,,350000,"Vartry Wood, Ashford, Co. Wicklow",Terrace,yes,25
+7,2,2,,365000,"Vartry Wood, Ashford, Co. Wicklow",End of Terrace,yes,25
+8,4,4,,475000,"No. 3 Ros Alainn, Macroom, Co. Cork",Detached,yes,25
+9,3,3,,320000,"King's Fort, Rathcormac, Co. Cork",Semi-D,yes,25
+10,4,4,,390000,"King's Fort, Rathcormac, Co. Cork",Detached,yes,25
+11,3,3,,455000,"The Darley, Straffan, Co. Kildare",Terrace,yes,25
+12,3,3,,335750,"Bun Na Coille, Moycullen, Moycullen, Co. Galway",Terrace,yes,25
+13,3,3,,387500,"Bun Na Coille, Moycullen, Moycullen, Co. Galway",Semi-D,yes,25
+14,3,3,,335750,"Bun Na Coille, Moycullen, Co. Galway",Terrace,yes,25
+15,3,3,,387500,"Bun Na Coille, Moycullen, Co. Galway",Semi-D,yes,25
+16,3,3,,Price on Application,"Blossom Hill, Broomfield Village, Midleton, Co. Cork",Semi-D,yes,25
+17,4,3,,Price on Application,"Blossom Hill, Broomfield Village, Midleton, Co. Cork",Semi-D,yes,25
+18,2,2,,310000,"Donacarney Village Square, Donacarney, Drogheda, Co. Meath",Apartment,yes,25
+19,3,3,,350000,"Donacarney Village Square, Donacarney, Drogheda, Co. Meath",Duplex,yes,25
+20,1,1,,550000,"Thornhill Oaks, Cherrygarth, Mount Merrion, Co. Dublin",Apartment,yes,25
+21,2,2,,720000,"Thornhill Oaks, Cherrygarth, Mount Merrion, Co. Dublin",Apartment,yes,25
+22,3,3,,Price on Application,"Finlay Park, Naas, Co. Kildare",Semi-D,yes,25
+23,4,3,,Price on Application,"Finlay Park, Naas, Co. Kildare",Semi-D,yes,25
+24,3,3,,310000,"Strettel Avenue, Ballitore, Co. Kildare",Semi-D,yes,25
+25,4,,,535000,"Westfield, Westfield, Green Lane, Easton, Leixlip, Co. Kildare",Semi-D,yes,25
+26,5,4,,625000,"Janeville, Cherry Lane, Carrigaline, Co. Cork",Detached,yes,25
+27,5,4,,625000,"Janeville, Cherry Lane, Carrigaline, Co. Cork",Detached,yes,25
+28,3,3,,525000,"Kinsealy Woods, Chapel Rd, Kinsealy, Kinsealy, Co. Dublin",End of Terrace,yes,25
+29,4,3,,Price on Application,"Kinsealy Woods, Chapel Rd, Kinsealy, Kinsealy, Co. Dublin",Semi-D,yes,25
+30,3,3,,495000,"Chancel Way, Village Centre, Newcastle, Co. Wicklow",Semi-D,yes,25
+31,4,4,,585000,"Chancel Way, Village Centre, Newcastle, Co. Wicklow",Semi-D,yes,25
+32,2,3,,350000,"Coach Road, Clane, Co. Kildare",Terrace,yes,25
+33,4,3,,475000,"Coach Road, Clane, Co. Kildare",Semi-D,yes,25
+34,5,6,,700000,"No 1 Ashford Pines, Cong, Co. Mayo",Detached,yes,26
+35,4,,,425000,"Lime Tree Court, Lime Tree Court, Main Street, Prosperous, Co. Kildare",Terrace,yes,26
+36,4,,,475000,"Lime Tree Court, Lime Tree Court, Main Street, Prosperous, Co. Kildare",Semi-D,yes,26
+37,4,3,,Price on Application,"Elmbury, Carrigane, Carrigtwohill, Co. Cork",Semi-D,yes,26
+38,4,4,,Price on Application,"Elmbury, Carrigane, Carrigtwohill, Co. Cork",Detached,yes,26
+39,5,4,,895000,"Brookfield, The Back Road, Malahide, Co. Dublin",Detached,yes,26
+40,5,4,,945000,"Brookfield, The Back Road, Malahide, Co. Dublin",Detached,yes,26
+41,4,3,,415000,"Fox Meadow, Kilkenny, Co. Kilkenny",Semi-D,yes,26
+42,4,3,,440000,"Fox Meadow, Kilkenny, Co. Kilkenny",Semi-D,yes,26
+43,4,2,,420000,"Clog Na Léinn, Collinstown, Co. Westmeath",Detached,yes,26
+44,2,2,,330000,"Harristown Drive, Kildangan Village, Kildangan, Co. Kildare",Terrace,yes,26
+45,5,4,202.0,640000,"5 Bed Family Home, Blackrock Villas, Blackrock Villas, Blackrock Villas, Blackrock Villas, Blackrock, Co. Cork",Terrace,no,26
+46,2,2,,400000,"Ardrath, Celbridge, Co. Kildare",End of Terrace,yes,26
+47,3,3,,Price on Application,"Ardrath, Celbridge, Co. Kildare",Semi-D,yes,26
+48,4,4,,539000,"Ashbrook, Fairyhouse Road, Ratoath, Co. Meath",Terrace,yes,26
+49,4,4,,Price on Application,"Ashbrook, Fairyhouse Road, Ratoath, Co. Meath",End of Terrace,yes,26
+50,3,3,,405000,"The Bawnogues, Kilcock, Co. Kildare",Terrace,yes,26
+51,3,3,,415000,"The Bawnogues, Kilcock, Co. Kildare",Terrace,yes,26
+52,5,4,,795000,"The Meadows, Rowlestown, Swords, Co. Dublin",Detached,yes,26
+53,1,1,,190000,"WestPoint, The Mullans, Donegal Town, Co. Donegal",Bungalow,yes,26
+54,2,2,,225000,"WestPoint, The Mullans, Donegal Town, Co. Donegal",End of Terrace,yes,26
+55,1,1,,260000,"Hillfort , Kill, Co. Kildare",Apartment,yes,26
+56,2,2,,375000,"Hillfort , Kill, Co. Kildare",Semi-D,yes,26
+57,2,2,,Price on Application,"The Gallery, Lenaboy Gardens, Salthill, Co. Galway",Duplex,yes,26
+58,3,3,,Price on Application,"The Gallery, Lenaboy Gardens, Salthill, Co. Galway",End of Terrace,yes,26
+59,4,3,,425000,"Lime Tree Court, Prosperous, Co. Kildare",Terrace,yes,26
+60,4,3,,475000,"Lime Tree Court, Prosperous, Co. Kildare",Semi-D,yes,26
+61,3,3,,350000,"Foxburrow, Stradbally Road, Portlaoise, Co. Laois",Semi-D,yes,26
+62,4,3,,385000,"Foxburrow, Stradbally Road, Portlaoise, Co. Laois",Semi-D,yes,26
+63,4,3,,365000,"Mount Stewart, Stradbally Road, Portlaoise, Portlaoise, Co. Laois",Semi-D,yes,26
+64,3,2,,Price on Application,"Woodbrook, Woodbrook, Shankill, Dublin 18",Semi-D,yes,26
+65,5,2,,Price on Application,"Woodbrook, Woodbrook, Shankill, Dublin 18",Semi-D,yes,26
+66,4,4,,425000,"No. 13 Ros Alainn, Macroom, Co. Cork",Detached,yes,27
+67,4,5,,475000,"No. 13 Ros Alainn, Macroom, Co. Cork",Detached,yes,27
+68,4,5,,475000,"Ros Alainn View, Macroom, Co. Cork",Detached,yes,27
+69,4,3,,Price on Application,"Elmeley, Bettystown, Co. Meath",Detached,yes,27
+70,3,3,,Price on Application,"Elmeley, Bettystown, Co. Meath",Semi-D,yes,27
+71,4,,,550000,"River View, River View, Rolestown, Co. Dublin",Detached,yes,27
+72,4,4,,1800000,"Annesley Gardens, Annesley Gardens, Ranelagh, Dublin 6",Detached,yes,27
+73,4,2,,1800000,"Annesley Gardens, Annesley Gardens, Ranelagh, Dublin 6",Terrace,yes,27
+74,1,1,,240000,"Oak Church, Oak Church, Kildare, Co. Kildare",Duplex,yes,27
+75,3,3,,340000,"Oak Church, Oak Church, Kildare, Co. Kildare",Semi-D,yes,27
+76,3,3,,307000,"Gleann An Fhia, Macroom, Co. Cork",Townhouse,yes,27
+77,3,3,,310000,"Gleann An Fhia, Macroom, Co. Cork",End of Terrace,yes,27
+78,2,2,,220000,"Old Forge Road, Milehouse Road, Enniscorthy, Co. Wexford",Terrace,yes,27
+79,3,3,,275000,"Old Forge Road, Milehouse Road, Enniscorthy, Co. Wexford",Semi-D,yes,27
+80,4,,,2000000,"The Terrace, The Terrace, Foxrock, Dublin 18",Terrace,yes,27
+81,2,1,,214500,"The Grange, Lurganboy, Donegal Town, Co. Donegal",Terrace,yes,27
+82,3,2,,239500,"The Grange, Lurganboy, Donegal Town, Co. Donegal",Terrace,yes,27
+83,4,3,,Price on Application,"Thornbrook , Herbert Road , Bray, Co. Wicklow",Detached,yes,27
+84,3,3,,Price on Application,"Thornbrook , Herbert Road , Bray, Co. Wicklow",Semi-D,yes,27
+85,3,3,,Price on Application,"Ardrath , Celbridge, Co. Kildare",Semi-D,yes,27
+86,3,3,,Price on Application,"Ardrath , Celbridge, Co. Kildare",Semi-D,yes,27
+87,4,3,,Price on Application,"Phase 5, Foxwood, Waterford City, Co. Waterford",Detached,yes,27
+88,3,3,,Price on Application,"Phase 5, Foxwood, Waterford City, Co. Waterford",Semi-D,yes,27
+89,4,4,,Price on Application,"Knightswood , Williamstown, Waterford City, Co. Waterford",Semi-D,yes,27
+90,4,4,,Price on Application,"Knightswood , Williamstown, Waterford City, Co. Waterford",Detached,yes,27
+91,1,1,,290000,"Oldtown Woods, Celbridge, Co. Kildare",Apartment,yes,27
+92,2,1,,330000,"Oldtown Woods, Celbridge, Co. Kildare",Apartment,yes,27
+93,4,2,,425000,"Ardmore Hills, Mullingar, Co. Westmeath",Semi-D,yes,27
+94,4,2,,425000,"Ardmore Hills, Mullingar, Co. Westmeath",Semi-D,yes,27
+95,4,3,,375000,"Ros Mór, Ballyneety Road, Limerick City, Co. Limerick",Semi-D,yes,27
+96,4,3,,430000,"Ros Mór, Ballyneety Road, Limerick City, Co. Limerick",Detached,yes,27
+97,2,,,475000,"Egremont, Egremont, Church Road, Killiney, Co. Dublin",Apartment,yes,27
+98,2,,,600000,"Egremont, Egremont, Church Road, Killiney, Co. Dublin",Duplex,yes,27
+99,4,2,,465000,"Ballinglanna, Ballinglanna, Glanmire, Co. Cork",Semi-D,yes,27
+100,4,2,,555000,"Ballinglanna, Ballinglanna, Glanmire, Co. Cork",Detached,yes,27
+101,4,4,,655000,"Castleview, Williamstown Road, Waterford City, Co. Waterford",Detached,yes,28
+102,5,4,,695000,"Castleview, Williamstown Road, Waterford City, Co. Waterford",Detached,yes,28
+103,4,3,131.0,320000,"14 Carlinn Heath, Mullaharlin Road, Dundalk, Co. Louth",Semi-D,no,28
+104,2,1,81.0,131000,"13 Macdonagh Junction, Kilkenny, Co. Kilkenny",Apartment,no,28
+105,3,3,128.0,245000,"17 Caiseal Na Ré­, Golden Road, Cashel, Co. Tipperary",End of Terrace,no,28
+106,1,1,,190000,"Apartment 15, Cairéal Mór, Galway City, Co. Galway",Apartment,no,28
+107,3,1,105.0,210000,"Boher Bué­ Road, Ballaghaderreen, Co. Roscommon",Detached,no,28
+108,3,2,159.0,450000,"Abbeylands, Arklow, Co. Wicklow",Bungalow,no,28
+109,5,2,121.0,240000,"16 Orilia Terrace, Cobh, Co. Cork",Terrace,no,28
+110,4,3,150.0,369950,"53 Saint Margaret's Road, Hampton Wood, Finglas, Dublin 11",Terrace,no,28
+111,10,6,929.0,975000,"BURKES OF BALLYCASTLE ACCOMMODATION, Main Street, Ballycastle, Co. Mayo",Terrace,no,28
+112,2,2,71.0,225000,"Apartment 8M, Willan's Way, Dublin 15",Apartment,no,28
+113,2,1,59.0,95000,"305 Ridgepool View Apartments, Barret Street, Ballina, Co. Mayo",Apartment,no,28
+114,3,3,112.0,240000,"5 Madeira Grove, The Moyne, Enniscorthy, Co. Wexford",Semi-D,no,28
+115,3,2,74.0,380000,"62 Saint Jarlath Road, Cabra, Dublin 7",Semi-D,no,28
+116,2,2,,235000,"Apartment 4, Kiltipper Gate, Tallaght, Dublin 24",Apartment,no,28
+117,3,2,70.0,145000,"Apartment 16, Ailesbury Manor, Waterford City, Co. Waterford",Apartment,no,28
+118,1,1,45.0,220000,"Apartment 6, The Plaza Crescent, Swords, Co. Dublin",Apartment,no,28
+119,5,5,185.0,495000,"126 Brandon Square, Waterville, Blanchardstown, Dublin 15",Terrace,no,28
+120,4,1,115.0,195000,"Kilbride, Swinford, Co. Mayo",Bungalow,no,28
+121,4,3,,220000,"18 Barry Park, Glanworth, Co. Cork",Terrace,no,28
+122,1,1,,99000,"Graffees, Ballydavid, Dingle, Co. Kerry",Detached,no,29
+123,4,3,124.0,415000,"9 The Park, Blessington Abbey, Blessington, Co. Wicklow",Semi-D,no,29
+124,3,2,92.0,325000,"131 Curragh Woods, Frankfield, Co. Cork",Semi-D,no,29
+125,4,1,,625000,"82 Applewood Heights, Greystones, Co. Wicklow",Semi-D,no,29
+126,4,2,134.0,340000,"203 River Village, Monksland, Athlone, Co. Roscommon",Detached,no,29
+127,4,2,92.0,350000,"55 Cnoc An Óir, Letteragh Road, Letteragh, Co. Galway",Semi-D,no,29
+128,3,2,86.0,275000,"49 College Manor, Hoey's Lane, Dundalk, Co. Louth",Semi-D,no,29
+129,3,3,91.0,135000,"26 Inver Geal, Carrick-on-Shannon, Co. Roscommon",Townhouse,no,29
+130,4,3,119.0,395000,"140 Dara Court, Celbridge, Co. Kildare",Semi-D,no,29
+131,4,1,133.0,625000,"19 Ardmore Crescent, Bray, Co. Wicklow",Semi-D,no,29
+132,4,3,195.0,440000,"Rockspring, Camolin, Co. Wexford",Detached,no,29
+133,2,1,81.0,175000,"21 Macdonagh Junction, Kilkenny, Co. Kilkenny",Apartment,no,29
+134,3,3,,349000,"Moyvannan, Kiltoom, Kiltoom, Co. Roscommon",Detached,no,29
+135,3,1,97.0,297500,"4 Belmont Avenue, Ballinlough, Ballinlough, Co. Cork",Semi-D,no,29
+136,3,3,107.0,180000,"1 Déºn Breandan, Saint Brendan's Road, Lisdoonvarna, Co. Clare",Semi-D,no,29
+137,5,,160.0,675000,"81 Harold's Cross Road, Harold's Cross, Dublin 6",Terrace,no,29
+138,5,5,165.0,695000,"20 Belmont Drive, Stepaside, Dublin 18",Semi-D,no,29
+139,4,2,121.0,250000,"14 Elm Court, Park Road, Killarney, Co. Kerry",Semi-D,no,29
+140,3,1,85.0,315000,"86 Fassaugh Avenue, Cabra, Dublin 7",Terrace,no,29
+141,5,3,170.0,525000,"Slaney View, Slaney View, Station Road, Rosslare Strand, Co. Wexford",Detached,no,29
+142,3,3,98.0,394950,"112 Esker Park, Lucan, Co. Dublin",Semi-D,no,30
+143,2,1,65.0,300000,"6 Irvine Terrace, East Wall, Dublin 3",Bungalow,no,30
+144,3,1,96.0,199500,"Dromin, Carrigatoher, Nenagh, Co. Tipperary",Detached,no,30
+145,3,3,,295000,"75 Chambers Park, Kilcock, Co. Kildare",End of Terrace,no,30
+146,3,2,,145000,"Pixie Cottage, The Fairy Lane, Gorey, Co. Wexford",Detached,no,30
+147,4,1,,420000,"New Park, Kiltoom, Co. Roscommon",Detached,no,30
+148,3,2,82.0,369000,"8 Hillcrest Park, Lucan, Co. Dublin",Semi-D,no,30
+149,4,2,,199500,"114 Retreat Park, Athlone, Co. Westmeath",Semi-D,no,30
+150,1,1,,50000,"Moneenlom, Glenfarne, Co. Leitrim",Detached,no,30
+151,5,2,,155000,"Kylebrack (Folio GY81263F), Loughrea, Co. Galway",Detached,no,30
+152,5,1,,190000,"Gorteen (Folio LK42285F), Feenagh, Kilmallock, Co. Limerick",Detached,no,30
+153,3,3,,249000,"9 Thornfields, Kilbrogan, Bandon, Co. Cork",Semi-D,no,30
+154,2,1,,213000,"Apartment 7, Block C, Ballymount Square, Walkinstown, Dublin 12",Apartment,no,30
+155,2,1,,270000,"Apartment 63, Collins Square, Dublin 7",Apartment,no,30
+156,2,1,,173000,"Apartment 59, Block B, Aras Na Cluaine, Clondalkin, Dublin 22",Apartment,no,30
+157,1,1,,280000,"Apartment 25, Gandon House, Custom House Square, Mayor Street Lower, I.F.S.C, Dublin 1",Apartment,no,30
+158,3,2,,270000,"51 Parkview, Swords, Co. Dublin",Semi-D,no,30
+159,3,2,,425000,"83 Rockford Park, Blackrock, Co. Dublin",End of Terrace,no,30
+160,3,3,,210000,"4 Manorland Close, Trim, Co. Meath",Semi-D,no,30
+161,4,2,,195000,"20 Taylor Hall, Kells, Co. Meath",Detached,no,30
+162,3,1,,235000,"17 Cherrywood Drive, Clondalkin, Dublin 22",Semi-D,no,31
+163,3,1,,135000,"15 Park Road, Kilsheelan, Clonmel, Co. Tipperary",End of Terrace,no,31
+164,4,3,,335000,"Lydican, Oranmore, Co. Galway",Bungalow,no,31
+165,3,2,,150000,"4 & 4A Church Road, Ballydesmond, Co. Cork",Terrace,no,31
+166,3,2,,310000,"30 Pebble Bay, Friars Hill, Wicklow Town, Co. Wicklow",Semi-D,no,31
+167,3,2,,245000,"12 Cluain Ard, Arklow, Co. Wicklow",Semi-D,no,31
+168,2,1,,178000,"Apartment 2, The Gables, Grangeview, Clondalkin, Dublin 22",Apartment,no,31
+169,2,1,,260000,"Apartment 11, Compass Court North, Ratoath Road, Ashtown, Dublin 15",Apartment,no,31
+170,3,2,,285000,"56 The Paddocks View, Adamstown, Lucan, Co. Dublin",Detached,no,31
+171,4,1,,395000,"1 Pebble Bay, Friars hill, Wicklow Town, Co. Wicklow",Semi-D,no,31
+172,3,2,,170000,"23 Seaview Park, Strandhill Road, Sligo, Co. Sligo",Semi-D,no,31
+173,3,1,,370000,"50 Gracefield Avenue, Artane, Dublin 5",Semi-D,no,31
+174,2,1,,350000,"50A Gracefield Avenue, Artane, Dublin 5",Detached,no,31
+175,3,1,,220000,"6 Wheatfield Park, Clondalkin, Dublin 22",Semi-D,no,31
+176,3,2,,170000,"40 Pairc an Oir, Rathcormac, Co. Cork",Semi-D,no,31
+177,2,1,,195000,"Apartment 16, Holywell Green, Swords, Co. Dublin",Apartment,no,31
+178,3,2,102.0,235000,"45 Carraig Mé³r, Loughrea, Co. Galway",End of Terrace,no,31
+179,3,1,,240000,"10 Mount Eustace Walk, Tyrrelstown, Dublin 15",Semi-D,no,31
+180,3,1,,125000,"36 Bree, Castlebaney, Monaghan, Co. Monaghan",Semi-D,no,31
+181,3,2,,210000,"6 Grange View Grove, Clondalkin, Dublin 22",Terrace,no,31
+182,2,2,,200000,"Apartment 3, The Mews, Classes Lake, Ovens, Co. Cork",Apartment,no,32
+183,6,3,,350000,"5 Links Close Phase 2, Rosslare Strand, Co. Wexford",Detached,no,32
+184,2,,,200000,"23 Parkview Green, Poppintree, Dublin 11",Apartment,no,32
+185,2,1,,188000,"Apartment 51, Marlfield Close, Kiltipper, Tallaght, Dublin 24",Apartment,no,32
+186,3,1,,220000,"119 Glenoaks Walk, Clonmel, Co. Tipperary",Detached,no,32
+187,,,,330000,"64 Bailis Manor, Athlumney, Navan, Co. Meath",Semi-D,no,32
+188,2,,,225000,"16 Parkview Grove, Poppintree, Dublin 11",Detached,no,32
+189,3,1,,130000,"Barnagh, Newcatle West, Barna, Co. Limerick",Detached,no,32
+190,3,,,175000,"23 Greenmount Buildings, Cork City, Co. Cork",Terrace,no,32
+191,2,2,,110000,"Apartment 7, Block B, Convent Garden, Stanhope Street, Athy, Co. Kildare",Apartment,no,32
+192,4,1,,135000,"Drumcassidy, Kilnaleck, Co. Cavan",Detached,no,32
+193,4,,,180000,"142 Carraig Midhe, Corbally, Kilkee, Co. Clare",Terrace,no,32
+194,3,1,,150000,"Ballycarroll, Portarlington, Co. Laois",Detached,no,32
+195,3,,,245000,"4 Parkview Close, Poppintree, Dublin 11",Detached,no,32
+196,,,,415000,"Apartment 15, Le Hunt House, Brennanstown, Cabinteely, Dublin 18",Apartment,no,32
+197,3,3,,110000,"1 Latt Hills, Latt, Cavan Town, Cavan, Co. Cavan",Semi-D,no,32
+198,3,1,,185000,"56 Clochran, Kilcloghans, Tuam, Co. Galway",Terrace,no,32
+199,2,1,,310000,"Apartment 104, Hampton Square, Navan Road, Dublin 7",Apartment,no,32
+200,4,1,,140000,"Ballybrooney, Killala, Ballina, Co. Mayo",Detached,no,32
+201,3,,,115000,"Brooklawn, Kilconly, Tuam, Co. Galway",Detached,no,32
+202,2,2,,155000,"65 Hampton Green, Balbriggan, Co. Dublin",Semi-D,no,33
+203,3,2,,240000,"Apartment 40, Palmerstown Square, Palmerstown, Dublin 20",Apartment,no,33
+204,5,3,,120000,"Cloonmullen, Loughglynn, Co. Roscommon",Detached,no,33
+205,3,1,,265000,"12 Sylvan Lawns, Kilcoole, Co. Wicklow",Semi-D,no,33
+206,2,1,,210000,"Apartment 54, Moynihan Court, Tallaght, Dublin 24",Apartment,no,33
+207,2,2,,115000,"Apartment 152 D, Crann Nua, Edenderry Road, Portarlington, Co. Laois",Apartment,no,33
+208,2,1,,110000,"Knockahoppel (Folio TY35514), Curreeney, Kilcommon, Thurles, Co. Tipperary",Detached,no,33
+209,2,1,,265000,"3 Beechfield Heights, Castaheany, Dublin 15",Terrace,no,33
+210,3,2,,160000,"8 Beechview, Churchfield, Castlemagner, Co. Cork",Semi-D,no,33
+211,2,1,,190000,"Apartment 97, Applewood, Main Street, Swords, Co. Dublin",Apartment,no,33
+212,2,1,,155000,"Apartment 49, Barrons Hall, Balbriggan, Co. Dublin",Apartment,no,33
+213,1,1,,160000,"Apartment 143, The Maltings, Bonham Street, Dublin 8",Apartment,no,33
+214,4,3,,225000,"20 Chestnut Avenue, Ard Na Sidhe, Clonmel, Co. Tipperary",Semi-D,no,33
+215,3,2,,205000,"85 Edgeworth Court, Longwood, Co. Meath",Semi-D,no,33
+216,3,2,,270000,"45 Belmont Park, Ballinlough, Cork City, Co. Cork",Semi-D,no,33
+217,3,1,,510000,"42 Percy Lane, Ballsbridge, Dublin 4",Semi-D,no,33
+218,4,2,,270000,"Coolroe, Gorey, Co. Wexford",Detached,no,33
+219,2,1,,295000,"76 Knightsbrook Crescent, Trim, Co. Meath",Terrace,no,33
+220,2,1,75.0,135000,"Coolabaun, Mohill, Co. Leitrim",Semi-D,no,33
+221,3,2,,185000,"17 Bective Walk, Bective Lodge, Kilmessan, Co. Meath",Terrace,no,33
+222,2,2,,65000,"Apartment 47, Mac Oisin Place, Dromod, Co. Leitrim",Apartment,no,34
+223,3,1,76.0,180000,"24 Drive 2, Muirhevnamore, Dundalk, Co. Louth",Semi-D,no,34
+224,5,4,250.0,675000,"Sycamore House, Nicholastown, Kilcock, Co. Kildare",Detached,no,34
+225,3,3,98.0,199950,"8 Corkhill, Kinnegad, Co. Westmeath",Detached,no,34
+226,6,2,232.0,430000,"Aggard, Craughwell, Co. Galway",Detached,no,34
+227,2,1,52.0,190000,"Apartment 6, Lee Vista, Cork City, Co. Cork",Apartment,no,34
+228,3,3,107.0,345000,"45 Clochóg, Oranmore, Oranmore, Co. Galway",Semi-D,no,34
+229,3,3,95.0,269000,"4 Tannery Walk, Rathangan, Co. Kildare",Semi-D,no,34
+230,5,3,235.0,525000,"Cherrymount, Youghal",Detached,no,34
+231,3,3,94.0,210000,"10 Beech Grove, Greenfields, Waterford City, Co. Waterford",Terrace,no,34
+232,4,2,125.0,395000,"210 Saint Peter's Road, Walkinstown, Walkinstown, Dublin 12",End of Terrace,no,34
+233,4,3,269.0,1299950,"Meer, Church Road, Killiney, Co. Dublin",Detached,no,34
+234,2,1,73.0,435000,"46 Cremorne, Terenure, Dublin 6",Apartment,no,34
+235,3,1,88.0,349500,"Leeview, Mount Ovel, Rochestown, Co. Cork",Detached,no,34
+236,4,2,162.0,1100000,"3 Annsbrook, Clonskeagh, Clonskeagh, Dublin 14",Detached,no,34
+237,2,1,80.0,195000,"6 Montelado Way, Farmleigh, Waterford City, Co. Waterford",Terrace,no,34
+238,3,2,112.0,350000,"43 Greenwood Estate, Togher, Co. Cork",Semi-D,no,34
+239,3,1,90.0,375000,"1 Killarney Avenue, Killarney Street, Dublin 1",End of Terrace,no,34
+240,2,,,,"Castlereagh, Killala, Co. Mayo",Detached,no,34
+241,3,1,108.0,320000,"21 Westpark, Tallaght, Tallaght, Dublin 24",Semi-D,no,34
