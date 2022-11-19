@@ -2,7 +2,10 @@
 
 
 # exclude directories
-CA4021/*
-CA4022/02Assignment/*
 CA4016/data/D1NAMO
+CA4016/data/processed_data/*_Summary.csv
+CA4021/*
+
+CA4022/02Assignment/*
 CA4022/01Assignment/ml-latest-small
+
