@@ -5,7 +5,7 @@ import os
 
 class Resample_data():
     
-    def __init__(self, path, og_path = "data/D1NAMO/"):
+    def __init__(self, path, og_path = "../data/D1NAMO/"):
         self.path = path
         self.og_path = og_path
         
