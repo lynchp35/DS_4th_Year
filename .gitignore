@@ -3,7 +3,8 @@
 
 # exclude directories
 CA4016/data/D1NAMO
-CA4016/data/processed_data/**/*_Summary.csv
+# CA4016/data/processed_data/**/*_Summary.csv
+CA4016/data/processed_data/**/resampled_sensor_data.csv
 CA4021/*
 
 CA4022/02Assignment/*
