@@ -25,16 +25,32 @@ class FM_webscraper:
         self.extra_artist_data = {"artistID":[],"tag1":[],  "tag2":[],  "tag3":[],  "tag4":[],  "tag5":[]}
         
     def start_scraping(self):
-
-        for current_url, current_artistID in tqdm(zip(self.url_list,self.artistID_list)):
-            response = requests.get(current_url)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            self.extra_artist_data["artistID"].append(current_artistID)
-            for i, tag in enumerate(soup.find_all("li", "tag")):
-                self.extra_artist_data[f"tag{i+1}"].append(tag.text)
-
-            self.imput_null_values()
         
+        tag_file = open("data/top_five_artists_tags.csv", "w")
+        tag_file.write("artistID, tag1,  tag2, tag3, tag4, tag5\n")
+        counter = 1
+        for current_url, current_artistID in tqdm(zip(self.url_list,self.artistID_list)):
+            try:
+                response = requests.get(current_url)
+                soup = BeautifulSoup(response.text, 'html.parser')
+                current_row = [np.nan]*6
+                current_row[0] = (str(current_artistID))
+                self.extra_artist_data["artistID"].append(current_artistID)
+                for i, tag in enumerate(soup.find_all("li", "tag")[:5]):
+                    self.extra_artist_data[f"tag{i+1}"].append(tag.text)
+                    current_row[i+1] = tag.text
+                current_line = ",".join(current_row)
+                tag_file.write(current_line + "\n")
+                if counter % 250 == 0:
+                    tag_file.close()
+                    tag_file = open("data/top_five_artists_tags.csv", "a")
+                counter += 1 
+                self.imput_null_values()
+                    
+            except:
+                pass
+        
+        tag_file.close()
         return self.extra_artist_data
 
     def imput_null_values(self):
@@ -62,5 +78,5 @@ if __name__ == "__main__":
     extra_artist_data = scraper.start_scraping()
     extra_artist_data = pd.DataFrame(extra_artist_data)
 
-    path = "data/top_five_artists_tags.csv"
+    path = "data/top_five_artists_tags_2.csv"
     extra_artist_data.to_csv(path,index=False)
