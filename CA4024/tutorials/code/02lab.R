@@ -3,7 +3,9 @@ library("fpp")
 library("forecast")
 library("zoo")
 library("ggplot2")
-setwd("~/GitHub/DS_4th_Year/CA4024/tutorials/code")
+library("readxl")
+
+#setwd("~/GitHub/DS_4th_Year/CA4024/tutorials/code")
 
 # Question 1 #####################################
 
@@ -51,3 +53,6 @@ lines(ts(eir_lm$fitted.values, start=2018, frequency = 4), col="blue")
 # maybe in the years 2018-2019 a peak in Q1 and a drop in Q3. 
 
 # Question 3 #####################################
+
+vix <- read_excel("../extra/02week/Vix0708.xlsx")
+ts(vix)
