@@ -4,7 +4,7 @@ library("forecast")
 library("zoo")
 library("ggplot2")
 library("readxl")
-
+library("pracma")
 #setwd("~/GitHub/DS_4th_Year/CA4024/tutorials/code")
 
 # Question 1 #####################################
@@ -20,6 +20,7 @@ legend(2010, 15, legend=c("Orginal", "WMA4", "LM"),
 
 # Moving Averages (2X4pt) 
 acme_ma4 = ma(acme, order = 4, centre = T)
+acme_ma4
 lines(acme_ma4, type="o", col="red")
 
 # Least Squares
@@ -53,6 +54,23 @@ lines(ts(eir_lm$fitted.values, start=2018, frequency = 4), col="blue")
 # maybe in the years 2018-2019 a peak in Q1 and a drop in Q3. 
 
 # Question 3 #####################################
-
 vix <- read_excel("../extra/02week/Vix0708.xlsx")
-ts(vix)
+
+# MA15
+vix$ma15 = rollmean(vix$VIX, k=15, fill=NA)
+
+#M30
+
+vix$ma30 = rollmean(vix$VIX, k=30, fill=NA)
+
+# ESM
+vix$ema = EMA(vix$VIX, wilder = FALSE, ratio = 0.9)
+
+plot(y = vix$VIX, x= vix$Day, type="l")
+lines(y = vix$ma15, x= vix$Day, type="l",col="red")
+lines(y = vix$ma30, x= vix$Day, type="l",col="blue")
+lines(y = vix$ema, x= vix$Day, type="l",col="yellow")
+
+
+
+
